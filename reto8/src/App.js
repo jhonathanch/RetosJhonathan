@@ -89,7 +89,7 @@ function App() {
     <div className="App" style={{ padding: "20px", fontFamily: "Arial" }}>
       <h1>libros Stack (LIFO)</h1>
       <p>
-        Este reto #8 representa una <strong>Pila (Stack)</strong>,
+        Este reto 8 representa una <strong>Pila (Stack)</strong>,
       </p>
 
       {/*  Formulario */}
