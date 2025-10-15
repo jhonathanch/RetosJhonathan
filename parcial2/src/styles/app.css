@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbe9e7;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-container,
+.main-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.auth-container button,
+.logout-btn,
+.switch-btn {
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-container button:hover,
+.logout-btn:hover,
+.switch-btn:hover {
+  background-color: #880e0e;
+}
+
+.switch-text {
+  margin-top: 15px;
+  color: #333;
+}
+
+.logout-btn {
+  margin-bottom: 15px;
+}
