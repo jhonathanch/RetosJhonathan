@@ -1,0 +1,77 @@
+/* 🎓 Estilo Portal Universitario - Esquema Rojo / Blanco / Negro */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #b30000; /* rojo institucional */
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Menú lateral */
+aside {
+  width: 220px;
+  background-color: #111;
+  color: white;
+  padding: 1.5rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+aside h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #b30000;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+aside li:hover {
+  background-color: #b30000;
+}
+
+/* Contenido principal */
+main {
+  margin-left: 240px;
+  padding: 2rem;
+}
+
+h1 {
+  color: #b30000;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
