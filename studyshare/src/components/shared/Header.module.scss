@@ -1,0 +1,26 @@
+/* src/components/shared/Header.module.scss */
+.header {
+  background: var(--primary);
+  color: white;
+  padding: 12px 0;
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 0 16px;
+}
+.brand { font-weight:700; font-size:18px; }
+
+.right { display:flex; align-items:center; gap:12px; }
+
+.search input {
+  padding:8px 10px;
+  border-radius:8px;
+  border: none;
+  outline: none;
+  min-width: 260px;
+}
+.badge { font-size:14px; background: rgba(255,255,255,0.08); padding:6px 10px; border-radius:8px; }

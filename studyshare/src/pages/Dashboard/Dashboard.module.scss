@@ -1,0 +1,11 @@
+/* src/pages/Dashboard/Dashboard.module.scss */
+.wrap { padding: 20px; background: var(--bg); min-height: calc(100vh - 72px); }
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 240px 1fr 320px;
+  gap: 20px;
+}
+.left, .right { position: sticky; top: 80px; align-self: start; }
+.main { }
